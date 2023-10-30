@@ -25,12 +25,11 @@ form{
         width: 100%;
     }
 }
+
 textarea{
     height: 20vh;
 }
-body{
-    background-color: #3B5D50;
-}
+
 form .bg{
     background-color: #3B5D50;
 }
