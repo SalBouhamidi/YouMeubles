@@ -1,37 +1,62 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
 }
 .bg-color .navbar-brand {
-    color: #F7E6C4;
-    font-size: 36px;
-    font-family:'Black Ops One' ;
+  color: #f7e6c4;
+  font-size: 36px;
+  font-family: "Black Ops One";
 }
-.bg-color .navbar-brand span{
-    color: #D7B96B;
-    
+.bg-color .navbar-brand span {
+  color: #d7b96b;
 }
-.bg-color{
-    background-color: #3B5D50;
-  }
-.h{
-    height: 50vh;
+.bg-color {
+  background-color: #3b5d50;
 }
-.prant{
+.h {
+  height: 50vh;
+}
+.prant {
   height: 30vh;
 }
-.prant .btn{
+.prant .btn {
   width: 150px;
   height: 40px;
   font-weight: bold;
   font-size: 22px;
 }
-@media (max-width:992px) {
-  .image{
+@media (max-width: 992px) {
+  .image {
     display: none;
   }
 }
-input , textarea{
+input,
+textarea {
   border-radius: 8px;
+}
+footer {
+  background-color: #eff2f1;
+  min-height: 30vh;
+}
+.logo a {
+  color: #9C865B;
+  font-family: "Black Ops One";
+  font-size: 36px;
+}
+.logo a  span{
+  color: #F5B206;
+}
+.final-foter {
+  width: 100%;
+  padding: 0;
+}
+@media (min-width;) {
+  
 }
