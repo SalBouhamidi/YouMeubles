@@ -3,10 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.a{
-    background-color: #3B5D50;
+.bg-color .navbar-brand span{
+    color: #D7B96B;
     
+}
+.bg-color{
+    background-color: #3B5D50;
   }
 .h{
     height: 60vh;
