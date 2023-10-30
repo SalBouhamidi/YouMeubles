@@ -26,42 +26,44 @@
   </head>
   <link rel="stylesheet" href="../styles/contact.css" />
   <body>
-    <nav
-      class="container-fluid navbar navbar-dark bg-color navbar-expand-md position-relative sticky-top"
-    >
-      <a class="navbar-brand" href="#"><span>My</span>Meuble</a>
-      <button class="navbar-toggler">
-        <span
-          class="navbar-toggler-icon"
-          data-bs-toggle="collapse"
-          data-bs-target="#nav"
-        ></span>
-      </button>
-      <div class="collapse navbar-collapse" id="nav">
-        <ul class="navbar-nav ms-auto mb-2 justify-content-between">
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">about us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <header class="container-fluid">
+      <nav
+        class="container navbar navbar-dark bg-color navbar-expand-md position-relative sticky-top"
+      >
+        <a class="navbar-brand" href="#" ><span>My</span>Meuble</a>
+        <button class="navbar-toggler">
+          <span
+            class="navbar-toggler-icon"
+            data-bs-toggle="collapse"
+            data-bs-target="#nav"
+          ></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav">
+          <ul class="navbar-nav ms-auto mb-2 justify-content-between gap-5">
+            <li class="nav-item">
+              <a class="nav-link text-white fs-5" href="#">home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fs-5" href="#">about us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fs-5" href="#">contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
     <main
-      class="container-fluid bg-color h text-white d-flex align-items-center"
+      class="container bg-color h text-white d-flex align-items-center"
     >
-      <div class="prant d-flex flex-column justify-content-between">
+      <div class=" prant d-flex flex-column justify-content-between">
         <h1>Contact</h1>
         <p class="p w-75">
           Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit.
           Aliquam vulputate velit imperdiet dolor tempor tristique.
         </p>
-        <button type="button" class="btn btn-warning p-0 rounded-pill">
+        <button type="button" class="btn btn-warning p-0 rounded-pill fw-normal">
           Shop now
         </button>
       </div>
@@ -99,22 +101,22 @@
           +212 612345789
         </div>
       </div>
-      <form class="w-100 p-3">
+      <form class="w-100 p-3 d-flex gap-3 flex-column">
         <div class="w-100 d-flex gap-3 flex-wrap">
-          <div class="d-flex flex-column flex-grow-1 gap-1">
-            <label for="name">First name</label>
+          <div class="d-flex flex-column flex-grow-1 gap-2">
+            <label for="name" >First name</label>
             <input type="text" id="name" class="p-2" required />
           </div>
-          <div class="d-flex flex-column flex-grow-1 gap-1">
+          <div class="d-flex flex-column flex-grow-1 gap-2">
             <label for="last">Last name</label>
             <input type="text" id="last" class="p-2" required />
           </div>
         </div>
-        <div class="d-flex flex-column flex-grow-1 gap-1">
+        <div class="d-flex flex-column flex-grow-1 gap-2">
           <label for="email">Email address</label>
-          <input type="email" id="email" class="p-2" required/>
+          <input type="email" id="email" class="p-2" required />
         </div>
-        <div class="d-flex flex-column flex-grow-1 gap-1">
+        <div class="d-flex flex-column flex-grow-1 gap-2">
           <label for="texte">Message</label>
           <textarea name="" id="texte" required></textarea>
         </div>
