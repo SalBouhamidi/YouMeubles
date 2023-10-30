@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+.bg-color .navbar-brand {
+    color: #F7E6C4;
+    font-size: 36px;
+    font-family:'Black Ops One' ;
+}
 .bg-color .navbar-brand span{
     color: #D7B96B;
     
