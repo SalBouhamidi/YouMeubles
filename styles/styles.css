@@ -5,6 +5,7 @@
 }
 ul{
   list-style: none;
+  padding: 0;
 }
 a{
   text-decoration: none;
@@ -56,7 +57,4 @@ footer {
 .final-foter {
   width: 100%;
   padding: 0;
-}
-@media (min-width;) {
-  
 }
