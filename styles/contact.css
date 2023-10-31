@@ -11,3 +11,6 @@ form .bg,
 textarea{
     height: 20vh;
 }
+.hero{
+    min-height: 50vh;
+}

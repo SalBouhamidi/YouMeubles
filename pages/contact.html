@@ -55,12 +55,8 @@
       </nav>
     </header>
 
-    <main
-      class="container-fluid bg-color h p-0 m-0"
-    >
-      <div
-        class="container  h-100 text-white d-flex align-items-center"
-      >
+    <main class="container-fluid bg-color h p-0 m-0">
+      <div class="container h-100 hero text-white d-flex align-items-center">
         <div class="prant d-flex flex-column justify-content-between">
           <h1>Contact</h1>
           <p class="p w-75">
@@ -74,63 +70,64 @@
             Shop now
           </button>
         </div>
-        <div class="image h-100 w-75 position-relative">
+        <div class="image  w-75 d-flex justify-content-end">
           <img
             src="../images/couch.png"
-            class="img w-75 position-absolute end-0 bottom-0"
+            class="img w-75"
             alt=""
           />
         </div>
       </div>
-    </main>
-
-    <section
-      class="container-fluid section-input flex-column gap-5 d-flex align-items-center justify-content-center pt-5 pb-5"
-    >
-      <div
-        class="container d-flex justify-content-between flex-column flex-md-row gap-5 p-0"
+      <section
+        class="container-fluid section-input flex-column gap-5 d-flex align-items-center justify-content-center pt-5 pb-5"
       >
-        <div class="w-75 p-0">
-          <button class="btn bg me-2">
-            <i class="bi bi-geo-alt-fill text-white"></i>
-          </button>
-          a yousoufia
-        </div>
-        <div class="w-100">
-          <button class="btn bg me-2">
-            <i class="bi bi-envelope text-white"></i>
-          </button>
-          info@gmail.com
-        </div>
-        <div class="w-100">
-          <button class="btn bg me-2">
-            <i class="bi bi-telephone-fill text-white"></i>
-          </button>
-          +212 612345789
-        </div>
-      </div>
-      <form class="container p-0 d-flex gap-3 flex-column">
-        <div class="w-100 d-flex gap-3 flex-wrap">
-          <div class="d-flex flex-column flex-grow-1 gap-2">
-            <label for="name">First name</label>
-            <input type="text" id="name" class="p-2" required />
+        <div
+          class="container d-flex justify-content-between flex-column flex-md-row gap-5 p-0"
+        >
+          <div class="w-75 p-0">
+            <button class="btn bg me-2">
+              <i class="bi bi-geo-alt-fill text-white"></i>
+            </button>
+            a yousoufia
           </div>
-          <div class="d-flex flex-column flex-grow-1 gap-2">
-            <label for="last">Last name</label>
-            <input type="text" id="last" class="p-2" required />
+          <div class="w-100">
+            <button class="btn bg me-2">
+              <i class="bi bi-envelope text-white"></i>
+            </button>
+            info@gmail.com
+          </div>
+          <div class="w-100">
+            <button class="btn bg me-2">
+              <i class="bi bi-telephone-fill text-white"></i>
+            </button>
+            +212 612345789
           </div>
         </div>
-        <div class="d-flex flex-column flex-grow-1 gap-2">
-          <label for="email">Email address</label>
-          <input type="email" id="email" class="p-2" required />
-        </div>
-        <div class="d-flex flex-column flex-grow-1 gap-2">
-          <label for="texte">Message</label>
-          <textarea name="" id="texte" required class="p-2"></textarea>
-        </div>
-        <button type="submit" class="btn text-white align-self-start bg">Send Message</button>
-      </form>
-    </section>
+        <form class="container p-0 d-flex gap-3 flex-column">
+          <div class="w-100 d-flex gap-3 flex-wrap">
+            <div class="d-flex flex-column flex-grow-1 gap-2">
+              <label for="name">First name</label>
+              <input type="text" id="name" class="p-2" required />
+            </div>
+            <div class="d-flex flex-column flex-grow-1 gap-2">
+              <label for="last">Last name</label>
+              <input type="text" id="last" class="p-2" required />
+            </div>
+          </div>
+          <div class="d-flex flex-column flex-grow-1 gap-2">
+            <label for="email">Email address</label>
+            <input type="email" id="email" class="p-2" required />
+          </div>
+          <div class="d-flex flex-column flex-grow-1 gap-2">
+            <label for="texte">Message</label>
+            <textarea name="" id="texte" required class="p-2"></textarea>
+          </div>
+          <button type="submit" class="btn text-white align-self-start bg">
+            Send Message
+          </button>
+        </form>
+      </section>
+    </main>
 
     <footer class="container-fluid pt-4 pb-4">
       <section class="container p-0">
