@@ -31,19 +31,21 @@ function validInput() {
   }
 }
 function validTextErai() {
+  let found = 0;
   if (texter.value.length > 20 && texter.value.length < 150) {
     texter.style.border = "2px solid green";
-
     content.textContent = 150 - texter.value.length;
+    content.style.color = "green";
+    found = 1;
+  } else {
+    content.textContent = 150 - texter.value.length;
+    content.style.color = "red";
+  }
+
+  if (found === 1) {
     return 1;
   } else {
-    texter.style.border = "2px solid red";
-    if (+content.textContent < 0) {
-      content.textContent = "stop ecrire le max est 150 carater";
-      content.style.color = "red";
-    } else {
-      content.textContent = 150 - texter.value.length;
-    }
+    return 0;
   }
 }
 email.addEventListener("input", validitEmail);
@@ -63,12 +65,11 @@ button.addEventListener("click", (e) => {
       showConfirmButton: false,
       timer: 5000,
     });
-   e.preventDefault();
+    e.preventDefault();
   } else {
     validitEmail();
     validTextErai();
     validInput();
     e.preventDefault();
   }
- 
 });
