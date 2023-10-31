@@ -1,35 +1,20 @@
-.section-input{
-    background-color: #3B5D50;
-}
+.section-input,
+form .bg,
 .section-input .bg{
     background-color: #3B5D50;
 }
-.section-input-icons{
-    max-width: 800px;
-}
-
 .section-input{
     background-color: #EFF2F1;
     min-height: 50vh;
     padding-top: 40px;
 }
-form{
-    max-width: 800px;
-}
-
-@media (max-width:792px) {
-    .section-input-icons{
-        width: 100%;
-    }
-    form{
-        width: 100%;
-    }
-}
-
 textarea{
     height: 20vh;
 }
-
-form .bg{
-    background-color: #3B5D50;
+.hero{
+    min-height: 50vh;
+}
+input,
+textarea{
+    outline: none;
 }
