@@ -14,3 +14,7 @@ textarea{
 .hero{
     min-height: 50vh;
 }
+input,
+textarea{
+    outline: none;
+}
