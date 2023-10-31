@@ -59,7 +59,7 @@ button.addEventListener("click", (e) => {
     Swal.fire({
       position: "center",
       icon: "success",
-      title: `Monsieur ${input[0].value}  ${input[1].value} , votre message a été envoyé, nous vous répondrons dans les plus brefs délais`,
+      title: `${input[0].value}  ${input[1].value} , votre message a été envoyé, nous vous répondrons dans les plus brefs délais`,
       showConfirmButton: false,
       timer: 5000,
     });
@@ -68,7 +68,7 @@ button.addEventListener("click", (e) => {
     validitEmail();
     validTextErai();
     validInput();
+    e.preventDefault();
   }
-  console.log(validTextErai(), validTextErai(), validInput());
  
 });
