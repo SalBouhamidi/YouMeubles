@@ -23,8 +23,9 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
     />
+    <link rel="stylesheet" href="../styles/contact.css" />
   </head>
-  <link rel="stylesheet" href="../styles/contact.css" />
+
   <body>
     <header class="container-fluid header">
       <nav
@@ -54,8 +55,12 @@
       </nav>
     </header>
 
-    <main class="container-fluid bg-color h text-white d-flex align-items-center">
-      <div class="main container bg-color h text-white d-flex align-items-center">
+    <main
+      class="container-fluid bg-color h p-0 m-0"
+    >
+      <div
+        class="container  h-100 text-white d-flex align-items-center"
+      >
         <div class="prant d-flex flex-column justify-content-between">
           <h1>Contact</h1>
           <p class="p w-75">
@@ -83,9 +88,9 @@
       class="container-fluid section-input flex-column gap-5 d-flex align-items-center justify-content-center pt-5 pb-5"
     >
       <div
-        class="container-md d-flex justify-content-between flex-column flex-md-row gap-5 section-input-icons p-0"
+        class="container d-flex justify-content-between flex-column flex-md-row gap-5 p-0"
       >
-        <div class="w-100">
+        <div class="w-75 p-0">
           <button class="btn bg me-2">
             <i class="bi bi-geo-alt-fill text-white"></i>
           </button>
@@ -104,7 +109,7 @@
           +212 612345789
         </div>
       </div>
-      <form class="w-100 p-0 d-flex gap-3 flex-column">
+      <form class="container p-0 d-flex gap-3 flex-column">
         <div class="w-100 d-flex gap-3 flex-wrap">
           <div class="d-flex flex-column flex-grow-1 gap-2">
             <label for="name">First name</label>
@@ -123,12 +128,12 @@
           <label for="texte">Message</label>
           <textarea name="" id="texte" required class="p-2"></textarea>
         </div>
-        <button class="btn text-white align-self-start bg">Send Message</button>
+        <button type="submit" class="btn text-white align-self-start bg">Send Message</button>
       </form>
     </section>
 
     <footer class="container-fluid pt-4 pb-4">
-      <section class="container">
+      <section class="container p-0">
         <div class="logo">
           <a class="navbar-brand" href="../index.html"><span>My</span>Meuble</a>
         </div>
@@ -179,5 +184,6 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script src="../javascript/contact.js"></script>
   </body>
 </html>
