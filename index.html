@@ -1,176 +1,255 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-        <link
-          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-          rel="stylesheet"
-          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-          crossorigin="anonymous"
-        />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Black+Ops+One&family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800&family=Noto+Kufi+Arabic:wght@100;200;300;400;500;600;700;800;900&display=swap"
-          rel="stylesheet"
-        />
-        <link rel="stylesheet" href="./styles/styles.css" />
-      </head>
-  <body>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/index.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Black+Ops+One&family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800&family=Noto+Kufi+Arabic:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+</head>
+
+<body>
     <!-- navbar -->
     <nav
-      class="container-fluid navbar navbar-dark bg-color navbar-expand-md position-relative sticky-top"
-    >
-      <a class="navbar-brand" href="#"><span>My</span>Meuble</a>
-      <button class="navbar-toggler">
-        <span
-          class="navbar-toggler-icon"
-          data-bs-toggle="collapse"
-          data-bs-target="#nav"
-        ></span>
+    class="container-fluid navbar navbar-dark bg-color navbar-expand-md position-relative sticky-top"
+  >
+    <a class="navbar-brand" href="#"><span>My</span>Meuble</a>
+    <button class="navbar-toggler">
+      <span
+        class="navbar-toggler-icon"
+        data-bs-toggle="collapse"
+        data-bs-target="#nav"
+      ></span>
+    </button>
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto mb-2 justify-content-between">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">about us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main
+    class="container-fluid bg-color h text-white d-flex align-items-center mb-5"
+  >
+    <div class="prant d-flex flex-column justify-content-between">
+      <h1>Contact</h1>
+      <p class="p w-75">
+        Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit.
+        Aliquam vulputate velit imperdiet dolor tempor tristique.
+      </p>
+      <button type="button" class="btn btn-warning p-0 rounded-pill">
+        Shop now
       </button>
-      <div class="collapse navbar-collapse" id="nav">
-        <ul class="navbar-nav ms-auto mb-2 justify-content-between">
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">about us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-<!-- hero-section -->
-    <main class="container-fluid bg-color h text-white d-flex align-items-center ">
-      <div class="prant d-flex flex-column justify-content-between">
-        <h1>Moderne interieure design Studio</h1>
-        <p class="p w-75">
-          Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit.
-          Aliquam vulputate velit imperdiet dolor tempor tristique.
-        </p>
-        <button type="button" class="btn btn-warning p-0 rounded-pill">
-          Shop now
-        </button>
-      </div>
-      <div class="image h-100 w-75 position-relative">
-        <img
-          src="../images/couch.png"
-          class="img w-75 position-absolute end-0 bottom-0"
-          alt=""
-        />
-      </div>
+     
+    </div>
+    <div class="image h-100 w-75 position-relative">
+      <img
+        src="../images/couch.png"
+        class="img w-75 position-absolute end-0 bottom-0"
+        alt=""
+      />
+    </div>
+  </main>
+
+    <!-- articles -> cards section -->
+    <main class="article container-fluid " >
+        <!-- cards section -->
+        <section class="article__section1 row my-5 justify-content-center">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card" style="width: 248px; border: none">
+                    <img src="images/sofa.png" class="card-img-top" alt="..." />
+                    <div class="card-body text-center">
+                        <p class="card-text">Ergonomic chair</p>
+                        <p class="card-prix">300.00$</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card" style="width: 248px; border: none">
+                    <img src="images/product-2.png" class="card-img-top" alt="..." />
+                    <div class="card-body text-center">
+                        <p class="card-text">Ergonomic chair</p>
+                        <p class="card-prix">300.00$</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card" style="width: 248px; border: none">
+                    <img src="images/product-3.png" class="card-img-top" alt="..." />
+                    <div class="card-body text-center">
+                        <p class="card-text">Ergonomic chair</p>
+                        <p class="card-prix">300.00$</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card" style="width: 248px; border: none">
+                    <img src="images/product2.webp" class="card-img-top" alt="..." />
+                    <div class="card-body text-center">
+                        <p class="card-text">Ergonomic chair</p>
+                        <p class="card-prix">300.00$</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card" style="width: 248px; border: none">
+                    <img src="images/product3.jfif" class="card-img-top" alt="..." />
+                    <div class="card-body text-center">
+                        <p class="card-text">Ergonomic chair</p>
+                        <p class="card-prix">300.00$</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card" style="width: 248px; border: none">
+                    <img src="images/lamp.webp" class="card-img-top" alt="..." />
+                    <div class="card-body text-center">
+                        <p class="card-text">Ergonomic chair</p>
+                        <p class="card-prix">300.00$</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card" style="width: 248px; border: none">
+                    <img src="images/lamp2.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body text-center">
+                        <p class="card-text">Ergonomic chair</p>
+                        <p class="card-prix">300.00$</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card" style="width: 248px; border: none">
+                    <img src="images/product1.webp" class="card-img-top" alt="..." />
+                    <div class="card-body text-center">
+                        <p class="card-text">Ergonomic chair</p>
+                        <p class="card-prix">300.00$</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card" style="width: 248px; border: none">
+                    <img src="images/sofa.png" class="card-img-top" alt="..." />
+                    <div class="card-body text-center">
+                        <p class="card-text">Ergonomic chair</p>
+                        <p class="card-prix">300.00$</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card" style="width: 248px; border: none">
+                    <img src="images/lamp3.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body text-center">
+                        <p class="card-text">Ergonomic chair</p>
+                        <p class="card-prix">300.00$</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section describes our principle adeventages -->
+        <section class="row article__section2 justify-content-between  " style="height: 30rem; margin-top: 10rem;">
+            <div class="col-md-12 col-lg-7">
+                <div class="row">
+                    <h2>Why Choose Us</h2>
+                    <p>
+                        Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
+                        velit. Aliquam vulputate velit imperdiet dolor tempor tristique.
+                    </p>
+                    <div class="col-12 col-md-6">
+                        <div class="card w-100" style=" border: none">
+                            <div class="card-body text-start ">
+                                <span><img src="images/ball.png" alt=""></span>
+                                <h5 class="card-title">Fast & Free Shipping</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="card w-100" style=" border: none">
+                            <div class="card-body text-start ">
+                                <span><img src="images/return.png" alt=""></span>
+                                <h5 class="card-title">Fast & Free Shipping</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="card w-100" style=" border: none">
+                            <div class="card-body text-start ">
+                                <span><img src="images/stl.png" alt=""></span>
+                                <h5 class="card-title">Fast & Free Shipping</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="card w-100" style=" border: none">
+                            <div class="card-body text-start ">
+                                <span><img src="images/truck.png" alt=""></span>
+                                <h5 class="card-title">Fast & Free Shipping</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 images-for-laptops text-end position-relative ">
+                <img src="images/dots-green.png" alt=""
+                    class="w-50 position-absolute top-25 start-25 translate-middle" />
+                <img src="images/why-choose-us-img.jpg" alt="" class="w-100 h-100  position-relative bottom-25 start-25 z-index-2" style="border-radius: 1rem;" />
+            </div>
+        </section>
+        
+        <!-- section for clients help design  -->
+        <section class="article__section3 row my-5 align-items-sm-end align-items-lg-center  " style="height: 50rem;">
+            <div class=" 	d-none  d-sm-none d-md-none d-lg-flex align-items-lg-start text-end  justify-content-center images-for-laptops   col-lg-8   position-relative  ">
+              
+                <img src="images/dots-green.png" class="article__section3--dots position-absolute  d-none  d-sm-none d-md-none d-lg-inline-block " alt="">
+                <img src="images/img-grid-1.jpg" class="article__section3--big d-none  d-sm-none d-md-none d-lg-inline-block " alt="">
+                <img src="images/img-grid-2.jpg" class="article__section3--small mx-3 d-none  d-sm-none d-md-none d-lg-inline-block " alt="">
+                <img src="images/img-grid-3.jpg" class="article__section3--medium position-absolute z-index-2  d-none  d-sm-none d-md-none d-lg-inline-block " alt="">
+            </div>
+            <div class="col-12 col-lg-4  ">
+                <h5>We Help You Make Modern Interior Design</h5>
+                <p>Donec facilisis quam ut purus rutrum lobortis. Donec 
+                    vitae odio quis nisl dapibus malesuada. Nullam aceu 
+                    aliquet velit. Aliquam vulputate velit imperdiet dolort tempor tristique. Pellentesque habitant morbi tristue senectus et netus et malesuada</p>
+                <ul>  
+                    <li>Donec vitae odio quis nisl dapibus malesuada</li>
+                    <li>Donec vitae odio quis nisl dapibus malesuada</li>
+                    <li>Donec vitae odio quis nisl dapibus malesuada</li>
+                    <li>Donec vitae odio quis nisl dapibus malesuada</li>
+                </ul>
+            </div>
+        </section>
     </main>
-<!-- articles -> cards section -->
-<article class="article container-fluid">
-  <section class="article__section row my-5 ">
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <div class="card" style="width: 248px;border:none">
-        <img src="images/sofa.png" class="card-img-top" alt="...">
-        <div class="card-body text-center">
-          <p class="card-text">Ergonomic chair</p>
-          <p class="card-prix">300.00$</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <div class="card" style="width: 248px;border:none">
-        <img src="images/product-2.png" class="card-img-top" alt="...">
-        <div class="card-body text-center">
-          <p class="card-text">Ergonomic chair</p>
-          <p class="card-prix">300.00$</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <div class="card" style="width: 248px;border:none">
-        <img src="images/product-3.png" class="card-img-top" alt="...">
-        <div class="card-body text-center">
-          <p class="card-text">Ergonomic chair</p>
-          <p class="card-prix">300.00$</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <div class="card" style="width: 248px;border:none">
-        <img src="images/product1.webp" class="card-img-top" alt="...">
-        <div class="card-body text-center">
-          <p class="card-text">Ergonomic chair</p>
-          <p class="card-prix">300.00$</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <div class="card" style="width: 248px;border:none">
-        <img src="images/product2.webp" class="card-img-top" alt="...">
-        <div class="card-body text-center">
-          <p class="card-text">Ergonomic chair</p>
-          <p class="card-prix">300.00$</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <div class="card" style="width: 248px;border:none">
-        <img src="images/product3.jfif" class="card-img-top" alt="...">
-        <div class="card-body text-center">
-          <p class="card-text">Ergonomic chair</p>
-          <p class="card-prix">300.00$</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <div class="card" style="width: 248px;border:none">
-        <img src="images/sofa.png" class="card-img-top" alt="...">
-        <div class="card-body text-center">
-          <p class="card-text">Ergonomic chair</p>
-          <p class="card-prix">300.00$</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <div class="card" style="width: 248px;border:none">
-        <img src="images/sofa.png" class="card-img-top" alt="...">
-        <div class="card-body text-center">
-          <p class="card-text">Ergonomic chair</p>
-          <p class="card-prix">300.00$</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <div class="card" style="width: 248px;border:none">
-        <img src="images/sofa.png" class="card-img-top" alt="...">
-        <div class="card-body text-center">
-          <p class="card-text">Ergonomic chair</p>
-          <p class="card-prix">300.00$</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <div class="card" style="width: 248px;border:none">
-        <img src="images/sofa.png" class="card-img-top" alt="...">
-        <div class="card-body text-center">
-          <p class="card-text">Ergonomic chair</p>
-          <p class="card-prix">300.00$</p>
-        </div>
-      </div>
-    </div>
-  </section>
-</article>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
 
-
-
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-  </body>
 </html>
