@@ -1,0 +1,15 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+.detailsproducts__imageofproduct{
+    width:40%;
+}
+.card-body__btn__addtowishlist{
+    background-color:rgba(59, 93, 80, 1);
+    border:none
+}
+.card-body__btn__addtowishlist:hover{
+    opacity:0,5;
+}
+
+
