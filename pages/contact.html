@@ -107,11 +107,11 @@
           <div class="w-100 d-flex gap-3 flex-wrap">
             <div class="d-flex flex-column flex-grow-1 gap-2">
               <label for="name">First name</label>
-              <input type="text" id="name" class="p-2" required />
+              <input type="text" id="name"  class="input p-2" />
             </div>
             <div class="d-flex flex-column flex-grow-1 gap-2">
               <label for="last">Last name</label>
-              <input type="text" id="last" class="p-2" required />
+              <input type="text" id="last" class="input p-2" required />
             </div>
           </div>
           <div class="d-flex flex-column flex-grow-1 gap-2">
@@ -120,9 +120,10 @@
           </div>
           <div class="d-flex flex-column flex-grow-1 gap-2">
             <label for="texte">Message</label>
-            <textarea name="" id="texte" required class="p-2"></textarea>
+            <textarea name="" id="texte" required class="p-2" max="150"></textarea>
+            <p id="content">150</p>
           </div>
-          <button type="submit" class="btn text-white align-self-start bg">
+          <button type="submit" id="button" class="btn text-white align-self-start bg">
             Send Message
           </button>
         </form>
@@ -182,5 +183,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="../javascript/contact.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </body>
 </html>
