@@ -42,9 +42,9 @@ a{
 }
 
 @media (max-width:992px) {
-  .image{
-    display: none;
-  }
+  .image img{
+    max-width: 250px;
+   }
 }
 input,
 textarea {
