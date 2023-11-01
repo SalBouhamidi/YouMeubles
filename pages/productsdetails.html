@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/productsdetails.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <main>
+        <header class="container-fluid header">
+            <nav class="container navbar navbar-dark bg-color navbar-expand-md position-relative p-0">
+                <a class="navbar-brand" href="../index.html"><span>My</span>Meuble</a>
+                <button class="navbar-toggler">
+                    <span class="navbar-toggler-icon" data-bs-toggle="collapse" data-bs-target="#nav"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="nav">
+                    <ul class="navbar-nav ms-auto mb-2 justify-content-between gap-5">
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-5" href="../index.html">home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-5" href="#">about us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-5" href="#">contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section class="detailsproducts container card mb-3 mt-5 p-4 border border-white" style="max-width: 95vw;">
+            <div class="row g-0 mt-5 d-flex justify-content-between">
+                <div class="images col-md-4 ">
+                    <img src="../images/product-1.png"
+                        class="detailsproducts__imageofproduct img-fluid rounded-start z-0 position-absolute mt-3"
+                        alt="the product1">
+                    <img src="../images/dots-green 2.png" alt="dots that add beauty to our products"
+                        class="img-fluid w-75">
+                </div>
+                <div class="col-md-8 w-50 me-5">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bolder text-start fs-3 ms-3">Noradic chair</h5>
+                        <p class="card-text text-start ms-5">Verso packs a lot of style into a small-space design. A
+                            nubby fabric that begs to be touched covers the chair from top to bottom in eye-catching
+                            texture. The chair's generously cushioned seat seems to float in the curvaceous frame that
+                            flares a beautifully rounded back from a U-shaped base. </p>
+                        <div class="card-text__quantity d-flex justify-content-around lh-lg">
+                            <p class="quantity__quantity fs-5 fw-bold">Quantity:</p>
+                            <div class="card-text__quantity--btn w-50 ">
+                                <button class="card-text__quantity--btn  btn btn-warning ">-</button>
+                                <button class="card-text__quantity--btn btn btn-warning">1</button>
+                                <button class="card-text__quantity--btn btn btn-warning">+</button>
+                            </div>
+                        </div>
+                        <div class="card-text__price d-flex justify-content-between w-75 pt-4">
+                            <p class="fs-5 fw-bold ms-5">Price: </p>
+                            <p class="fs-5 fw-bolder  w-100 ms-5 text-center ">29$</p>
+                        </div>
+                        <div class="card-body__btn ms-5 mt-4">
+                            <button class="btn btn-warning rounded-pill fw-bold w-25">Add to card</button>
+                            <button
+                                class="card-body__btn__addtowishlist btn btn-warning rounded-pill  fw-bold w-25 ms-5 "><i
+                                    class="fa-solid fa-heart" style="color: #ffffff;"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class=" mt-5 pt-5 w-25 d-flex justify-content-end ">
+                    <img src="../images/Group 70.jpg" alt="reviews" class="mt-5 w-50 ">
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="FAQ__reviews__accordion w-100 p-5">
+            <div class="accordion " id="accordionExample">
+                <div class="accordion-item opacity-75">
+                    <h2 class="accordion-header ">
+                        <button class="accordion-button text-light" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Reviews and testimonials
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item opacity-75">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button text-light collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            You have a question ? contact us
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="accordion-body">
+                                <strong>This is the first item's accordion body.</strong> It is shown by default, until the
+                                collapse plugin adds the appropriate classes that we use to style each element. These
+                                classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default variables.
+                                It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item opacity-75 color-light">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button text-light collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Shipping info
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Your order includes:</strong><br>
+                                <strong>✓ Shipping:</strong>We're committed to making your entire experience a pleasant
+                                one,
+                                from shopping to shipping.<br>
+                                <strong>✓ Free Returns:</strong>Our commitment to you does not end at delivery. We offer
+                                free returns to make your experience as easy as possible
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+
+
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

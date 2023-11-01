@@ -1,0 +1,20 @@
+.section-input,
+form .bg,
+.section-input .bg{
+    background-color: #3B5D50;
+}
+.section-input{
+    background-color: #EFF2F1;
+    min-height: 50vh;
+    padding-top: 40px;
+}
+textarea{
+    height: 20vh;
+}
+.hero{
+    min-height: 50vh;
+}
+input,
+textarea{
+    outline: none;
+}
