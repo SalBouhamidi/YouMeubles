@@ -23,8 +23,13 @@
 }
 .accordion-item{
     color:white;
-} 
-
+}
+.imageofdots__product{
+    width:16%;
+}
+.imageofdots__dots{
+    margin-left:20%;
+}
 
 
 
