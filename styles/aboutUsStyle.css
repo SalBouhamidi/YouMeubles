@@ -40,6 +40,14 @@
     font-weight: bold;
     font-size: 22px;
   }
+  .image{
+    position: absolute;
+     top: 3em; 
+     margin-right: 5%;
+    max-width: 40em;
+    z-index: 1;
+    right: 0;
+  }
   @media (max-width: 992px) {
     .img {
       display: none;
