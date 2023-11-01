@@ -30,6 +30,12 @@
     left: 1rem;
     top: -6rem;
 }
+.card:hover{
+    background-image:     linear-gradient(white 30%, #0bf7c4 70%);
+}
+.card-img-top{
+    position: relative;
+}
 @media (max-width: 720px){
 .images-for-laptops {
     display: none !important;
