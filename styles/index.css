@@ -30,8 +30,9 @@
     left: 1rem;
     top: -6rem;
 }
-.card:hover{
-    background-image:     linear-gradient(white 30%, #0bf7c4 70%);
+.article__section1__card:hover{
+    cursor: pointer;
+    background-image:     linear-gradient(white 45%, #b2d4c9 55%);
 }
 .card-img-top{
     position: relative;
