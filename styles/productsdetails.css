@@ -8,8 +8,23 @@
     background-color:rgba(59, 93, 80, 1);
     border:none
 }
-.card-body__btn__addtowishlist:hover{
-    opacity:0,5;
+.FAQ__reviews__accordion {
+    background-color:rgba(59, 93, 80, 1);
 }
+.accordion-item{
+    background-color:rgba(59, 93, 80, 1);
+}
+.accordion-button{
+    background-color:rgba(59, 93, 80, 1);
+}
+.accordion-button:not(.collapsed){
+    background-color:rgba(59, 93, 80, 1);
+    color:white;
+}
+.accordion-item{
+    color:white;
+} 
+
+
 
 
