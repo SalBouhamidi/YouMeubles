@@ -25,6 +25,9 @@
   .h {
     min-height: 50vh;
   }
+  .font{
+    font-size: small;
+  }
   .taille{
     height: 400px;
     width: 600px;
@@ -120,12 +123,14 @@
     
 }
 
+
 .sofa-img img {
       max-width: 250px; 
     }
 @media (max-width:720px) {
-    .sofa-img{
+    .couch .sofa-img{
         display: none;
     }
+
 }
 
