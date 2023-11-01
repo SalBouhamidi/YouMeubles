@@ -1,0 +1,30 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+.detailsproducts__imageofproduct{
+    width:40%;
+}
+.card-body__btn__addtowishlist{
+    background-color:rgba(59, 93, 80, 1);
+    border:none
+}
+.FAQ__reviews__accordion {
+    background-color:rgba(59, 93, 80, 1);
+}
+.accordion-item{
+    background-color:rgba(59, 93, 80, 1);
+}
+.accordion-button{
+    background-color:rgba(59, 93, 80, 1);
+}
+.accordion-button:not(.collapsed){
+    background-color:rgba(59, 93, 80, 1);
+    color:white;
+}
+.accordion-item{
+    color:white;
+} 
+
+
+
+
