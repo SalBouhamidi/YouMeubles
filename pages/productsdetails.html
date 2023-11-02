@@ -114,13 +114,14 @@
                         <div class="accordion-body">
                             <div class="accordion-body p-5">
                                 <div class="mb-3">
-                                    <input type="name" class="form-control mb-3" id="exampleFormControlInput1" placeholder="Full name : ">
+                                    <form action="submit" id="formulaire">
+                                    <input type="name" class="name form-control mb-3" id="exampleFormControlInput1" placeholder="Full name : ">
                                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your email:">
                                   </div>
                                   <div class="mb-3">
                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="7" placeholder="Write your message:"></textarea>
                                   </div>
-                                  <div class="d-flex justify-content-center"><button type="button" class="btn btn-warning "> Submit </button></div>
+                                  <div class="d-flex justify-content-center"><button type="button" class="btn btn-warning " id ="submibutton"> Submit </button></div></form>
                             </div>
                         </div>
                     </div>
@@ -234,6 +235,8 @@
 
 
     </main>
+
+   
     <script src="../javascript/productdetails.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
