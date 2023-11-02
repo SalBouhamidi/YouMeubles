@@ -4,11 +4,11 @@
   box-sizing: border-box;
   /* border: 1px solid red; */
 }
-ul{
+ul {
   list-style: none;
   padding: 0;
 }
-a{
+a {
   text-decoration: none;
 }
 .bg-color .navbar-brand {
@@ -25,7 +25,7 @@ a{
 .h {
   min-height: 50vh;
 }
-.taille{
+.taille {
   height: 400px;
   width: 600px;
   padding: 0;
@@ -41,8 +41,8 @@ a{
   font-size: 22px;
 }
 
-@media (max-width:992px) {
-  .image{
+@media (max-width: 992px) {
+  .image {
     display: none;
   }
 }
@@ -55,17 +55,17 @@ footer {
   min-height: 30vh;
 }
 .logo a {
-  color: #9C865B;
+  color: #9c865b;
   font-family: "Black Ops One";
   font-size: 36px;
 }
-.logo a  span{
-  color: #F5B206;
+.logo a span {
+  color: #f5b206;
 }
 .final-foter {
   width: 100%;
   padding: 0;
 }
-.header{
+.header {
   background-color: #3b5d50;
 }
