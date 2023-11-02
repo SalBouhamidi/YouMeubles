@@ -4,6 +4,11 @@
 .detailsproducts__imageofproduct{
     width:40%;
 }
+.card-text__quantity__input{
+    width: 3%;
+    height:5.5%;
+
+}
 .card-body__btn__addtowishlist{
     background-color:rgba(59, 93, 80, 1);
     border:none
@@ -30,6 +35,15 @@
 .imageofdots__dots{
     margin-left:20%;
 }
+.newsletter__send{
+    background-color:rgba(59, 93, 80, 1);
+    width:3%
+}
+.newsletter_name{
+    width:15%;
+    border: black 1px solid;
+}
+
 
 
 
