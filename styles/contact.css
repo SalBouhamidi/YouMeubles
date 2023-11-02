@@ -23,5 +23,80 @@ textarea{
     align-items: end;
 }
 .top-20{
+    width: 500px;
     bottom: -80px;
+    right: -30px;
+}
+
+===================
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+ul{
+  list-style: none;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+.bg-color .navbar-brand {
+  color: #f7e6c4;
+  font-size: 36px;
+  font-family: "Black Ops One";
+}
+.bg-color .navbar-brand span {
+  color: #d7b96b;
+}
+.bg-color {
+  background-color: #3b5d50;
+}
+.h {
+  min-height: 50vh;
+}
+.taille{
+  height: 400px;
+  width: 600px;
+  padding: 0;
+  margin-top: -500px;
+}
+.prant {
+  height: 30vh;
+}
+.prant .btn {
+  width: 150px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+@media (max-width:992px) {
+  .image{
+    display: none;
+  }
+}
+input,
+textarea {
+  border-radius: 8px;
+}
+footer {
+  background-color: #eff2f1;
+  min-height: 30vh;
+}
+.logo a {
+  color: #9C865B;
+  font-family: "Black Ops One";
+  font-size: 36px;
+}
+.logo a  span{
+  color: #F5B206;
+}
+.final-foter {
+  width: 100%;
+  padding: 0;
+}
+.header{
+  background-color: #3b5d50;
 }
